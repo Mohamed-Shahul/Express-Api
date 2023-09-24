@@ -1,0 +1,30 @@
+GET http://localhost:5000/subscribers
+
+###
+
+GET http://localhost:5000/subscribers/650e9c2adc2e6be9dc0c0fad
+
+###
+
+POST http://localhost:5000/subscribers
+Content-Type: application/json
+
+{
+    "name":"hameed",
+    "subscriberToChannel":"subscribed Dove FF"
+}
+
+### 
+
+DELETE  http://localhost:5000/subscribers/650e9c2adc2e6be9dc0c0fad
+
+
+### 
+
+PATCH http://localhost:5000/subscribers/650e81f801e359b0338fe970
+Content-Type: application/json
+
+{
+    "name":"Mohamed",
+    "subscriberToChannel":"subscribed mohamed YT"
+}
